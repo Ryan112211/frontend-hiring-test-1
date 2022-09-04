@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "es5",
+    "module": "ESNext",
+    "baseUrl": "./",
+    "paths": {
+      "@_config/*": ["_config/*"],
+      "@_global/*": ["constructors/_global/*"],
+      "@_lib/*": ["_lib/*"],
+      "@_utils/*": ["_utils/*"],
+      "@_redux": ["_redux/index"],
+      "@_redux/*": ["_redux/*"],
+      "@constructors/*": ["constructors/*"],
+      "@components": ["components/index"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"]
+    },
+    "esModuleInterop": true
+  },
+
+  "exclude": ["node_modules"]
+}

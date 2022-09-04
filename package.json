@@ -1,0 +1,45 @@
+{
+  "name": "with-redux-observable",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=\"--max_old_space_size=4096\" node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.2",
+    "jwt-decode": "^3.1.2",
+    "next": "^12.2.5",
+    "next-redux-wrapper": "^6.0.2",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "redux-observable": "1.2.0",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.6.6",
+    "styled-components": "^5.2.1",
+    "url-pattern": "^1.0.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cookie": "^0.4.0",
+    "https": "^1.0.0"
+  }
+}
